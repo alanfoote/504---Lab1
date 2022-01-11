@@ -9,7 +9,7 @@ bearing: 135,});
 map.on('load', () => {
         map.addSource('trails', {
         type: 'geojson',
-        data: 'Data/BigBendTrails.geojson' 
+        data: 'BigBendTrails.geojson' 
     });
 
     map.addLayer({
@@ -28,7 +28,7 @@ map.on('load', () => {
     });
     map.addSource('bounds', {
         type: 'geojson',
-        data: 'Data/BigBendBounds.geojson'
+        data: 'BigBendBounds.geojson'
 });
 
     map.addLayer({
