@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Big Bend National Park </title>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+</head>
+<body>
+      <h1> Big Bend National Park</h1>
+
+    	<div id='map'>
+        <div id='legend'>
+            <h3>Big Bend NP Trails</h3>
+            <ul>
+              <li><hr class="class1"> Class 1 trail: Minimally Developed</li>
+              <li><hr class="class2"> Class 2 trail: Moderately Developed</li>
+              <li><hr class="class3"> Class 3 trail: Developed</li>
+              <li><hr class="boundary"> Park boundary</li>
+            </ul>
+        </div>
+      </div>
+        <button id="fly">Be Centered</button>
+
+      <h3>This 3D map shows the developed trails in Big Bend National Park. The red trails are the most developed, the orange trails are moderately developed, and the yellow trails are minimally developed. Click on a trail to learn more about it. Also,this map is fully functional for exploration, as you can rotate, zoom in or pull back to gain new 3D perspectives of the geography and geology of the park. If you get lost, just click 'Be Centered' to return to default view of the Park. </h3>
+      <br>
+    </br>
+    <h5><b>Sources:</b> Mapbox, National Park Service, ESRI Groupsourced Data, Colorbrewer2.org.</h5>
+      <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

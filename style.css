@@ -1,0 +1,121 @@
+#map {
+height: 75vh;
+width:auto;
+}
+header {
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom:1em;
+}
+body {
+    background-color: #addd8e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Arial", Helvetica, sans-serif;
+  margin-top: 1em;
+  margin-bottom:1em;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 30px
+}
+h3
+{
+  font-family: "Arial", Helvetica, sans-serif;
+  margin-top: 1em;
+  margin-bottom:1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: auto;
+  text-align: center;
+}
+h5 {
+  font-family: "Arial", Helvetica, sans-serif;
+  margin-top: 1em;
+  margin-bottom:1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: right;
+
+}
+
+#fly {
+display: block;
+position: relative;
+margin: 1px auto;
+width: 24%;
+height: 40px;
+padding: 10px;
+border: solid 2px black;
+border-radius: 10px;
+font-size: 20px;
+font-family: "Arial", Helvetica, sans-serif;
+font-size: 24px;
+color: #fff;
+background: #762a83;
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 15px;
+  border-radius: 6px;
+  border: solid 2px #67a9cf;
+  background-color: #edf8e9;
+}
+#legend {
+background-color: #ffffff;
+border: solid 2px black;
+border-radius: 10px;
+bottom: 30px;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+padding: 10px;
+position: absolute;
+right: 18px;
+z-index: 1;
+}
+
+#legend h3 {
+margin: 0 0 10px;
+text-align: center;
+}
+
+#legend hr {
+  width: 20px;
+  transform: rotate(180deg);
+  float: left;
+  margin-right: 10px
+}
+
+#legend ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.class1 {
+  border-top: 3px solid red;
+}
+.class2 {
+  border-top: 3px solid orange
+}
+
+.class3{
+  border-top: 3px solid yellow
+}
+
+.boundary{
+  border-top: 4px solid black;
+  opacity: .6
+}
